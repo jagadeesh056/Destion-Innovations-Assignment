@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Credentials
+Username: StoreA || StoreB || StoreC
+Password: password1 || password2 || password3
+
 ### `npm start`
 
 Runs the app in the development mode.\
