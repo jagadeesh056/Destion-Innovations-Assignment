@@ -1,0 +1,110 @@
+.invoice-list-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invoice-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-list-header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .create-invoice-btn {
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .create-invoice-btn:hover {
+    background-color: #3a5ce5;
+  }
+  
+  .invoice-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+  }
+  
+  .invoice-table-container {
+    overflow-x: auto;
+  }
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .invoice-table th,
+  .invoice-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .invoice-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .invoice-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .invoice-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-btn,
+  .print-btn {
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .view-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+  }
+  
+  .print-btn {
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+  }
+  
+  .view-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .print-btn:hover {
+    background-color: #3a5ce5;
+  }
+  
+  .no-invoices {
+    text-align: center;
+    padding: 40px 0;
+    color: #777;
+  }
+  
+  

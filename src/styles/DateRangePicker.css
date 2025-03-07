@@ -1,0 +1,41 @@
+.date-range-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .date-inputs {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .date-input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .date-input-group label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .date-input-group input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .clear-dates-btn {
+    background-color: transparent;
+    color: #4a6cf7;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .clear-dates-btn:hover {
+    text-decoration: underline;
+  }
+  
+  
